@@ -1,0 +1,24 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #000;
+}
+
+#text {
+	margin: 0;
+	padding: 6px 0 0 6px;
+	border: none;
+	resize: none;
+	outline: none;
+	width: 95vw;
+	height: 95vh;
+	
+	background-color: #000;
+	color: rgba(0, 255, 0, 0.8);
+	font-family: Courier;
+	font-size: 12px;
+}
+
+@media print {
+	#text { color: black;	}
+}
